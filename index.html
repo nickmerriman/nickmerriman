@@ -10,7 +10,7 @@
       max-width: 720px;
       margin: 4rem auto;
       padding: 0 1.25rem;
-      font-family: system-ui, -apple-system, BlinkMacSystemFont,
+      font-family: Aptos, "Aptos Display", system-ui, -apple-system, BlinkMacSystemFont,
                    "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
       line-height: 1.6;
       color: #111;
@@ -48,6 +48,30 @@
     a:hover {
       text-decoration: underline;
     }
+
+    .pubs {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    .pubs li {
+      margin: 0 0 1.2rem;
+    }
+
+    .pub-title {
+      display: block;
+      font-weight: 600;
+      line-height: 1.4;
+    }
+
+    .pub-meta {
+      color: #555;
+      font-size: 0.93rem;
+    }
+
+    .pub-meta strong {
+      color: #111;
+    }
   </style>
 </head>
 
@@ -66,27 +90,27 @@
   </p>
 
   <h2>Publications</h2>
-  <ul>
+  <ul class="pubs">
     <li>
-      <a href="https://doi.org/10.1016/j.foreco.2026.124398">
-        Merriman, N. M., Brownell, H., Meilby, H., Riis-Nielsen, T., Mason, E. G., &amp; Nord-Larsen, T. (2027).
-        A multi-species stem taper and volume model for 41 tree species groups from 150 years of forest experiments.
+      <a class="pub-title" href="https://doi.org/10.1016/j.foreco.2026.124398">A multi-species stem taper and volume model for 41 tree species groups from 150 years of forest experiments</a>
+      <div class="pub-meta">
+        <strong>Merriman, N. M.</strong>, Brownell, H., Meilby, H., Riis-Nielsen, T., Mason, E. G., &amp; Nord-Larsen, T. (2027).
         <em>Forest Ecology and Management</em>, 624, 124398.
-      </a>
+      </div>
     </li>
     <li>
-      <a href="https://doi.org/10.1016/j.foreco.2026.123594">
-        Brownell, H., Merriman, N. M., &amp; Nord-Larsen, T. (2026).
-        From parametric models to machine learning: Predicting tree height from national forest inventory data.
+      <a class="pub-title" href="https://doi.org/10.1016/j.foreco.2026.123594">From parametric models to machine learning: Predicting tree height from national forest inventory data</a>
+      <div class="pub-meta">
+        Brownell, H., <strong>Merriman, N. M.</strong>, &amp; Nord-Larsen, T. (2026).
         <em>Forest Ecology and Management</em>, 608, 123594.
-      </a>
+      </div>
     </li>
     <li>
-      <a href="https://doi.org/10.1016/j.foreco.2025.123144">
-        Merriman, N. M., Taeroe, A., Nord-Larsen, T., &amp; Raulund-Rasmussen, K. (2025).
-        Height growth and total volume production models for short rotation Paulownia plantations.
+      <a class="pub-title" href="https://doi.org/10.1016/j.foreco.2025.123144">Height growth and total volume production models for short rotation Paulownia plantations</a>
+      <div class="pub-meta">
+        <strong>Merriman, N. M.</strong>, Taeroe, A., Nord-Larsen, T., &amp; Raulund-Rasmussen, K. (2025).
         <em>Forest Ecology and Management</em>, 597, 123144.
-      </a>
+      </div>
     </li>
   </ul>
 
